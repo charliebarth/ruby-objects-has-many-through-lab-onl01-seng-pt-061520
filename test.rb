@@ -10,6 +10,8 @@ describe '#patients' do
     end
   end
   
+  # Patient
+  
   describe '#appointments' do
     it 'returns all appointments associated with this Patient' do
       doctor_who = Doctor.new('The Doctor')
